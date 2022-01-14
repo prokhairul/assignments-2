@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=IBM+Plex+Sans&family=Oswald&family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-main{
+    display: flex;
+}
+
+.top-brand{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;    
+}
+
+.gear{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
