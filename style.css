@@ -6,16 +6,34 @@ body{
     padding: 0;
 }
 
-nav{
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-height{
+    width: 1024px;
     display: flex;
     justify-content: space-between;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    width: 1024px;
+}
+
 
 .top-main{
     display: flex;
 }
 
-.top-brand{
+.top-brands{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
