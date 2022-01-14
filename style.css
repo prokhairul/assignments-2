@@ -12,7 +12,7 @@ body{
     flex-direction: column;
 }
 
-.nav-height{
+nav{
     width: 1024px;
     display: flex;
     justify-content: space-between;
@@ -40,8 +40,9 @@ main {
         justify-content: center;    
 }
 
-.gear{
+
+
+.products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
 }
