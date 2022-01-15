@@ -105,7 +105,13 @@ Top Main Part Styles
     width: 50%;
     text-align: right;
     margin-top: 50px;
+    transition: ease-in-out transform 0.5s;
 }
+
+.top-main:hover .top-main-right{
+    transform: rotate(5deg);
+}
+
 .top-button{
     width: 196px;
     height: 44px;
@@ -211,29 +217,21 @@ Products Style Start
 }
 
 .fa-star.fill{
-    color: chocolate;
+    color: orange;
 }
 
 .item-icon-rating p{
     margin: 0px 0px 15px 10px;
-    color: #5E6366;
+    color: #787885;
     font-size: 14px;
     letter-spacing: 1px;
     font-family: 'Oswald', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .shipping-info p{
     margin: 0px;
-}
-
-.fa-plane-departure{
-    margin-right: 5px;
-    color: #555d50;
-}
-.fa-shield{
-    margin-right: 5px;
-    color: #555d50;
+    color: #787885;
 }
 
 .see-more{
