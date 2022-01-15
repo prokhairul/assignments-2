@@ -166,7 +166,52 @@ hr{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 
+.item-details .item-title{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 10px 0px 0px 0px;
+    color: #18191F;
+}
 
+.item-details .item-price{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    margin: 12px 0px 7px 0px;
+    color: #000000;
+}
+.item-icon-rating{
+    display: flex;
+    align-items: baseline;
+    font-size: 13px;
+}
+
+.fa-star.fill{
+    color: chocolate;
+}
+
+.item-icon-rating p{
+    margin: 0px 0px 15px 10px;
+    color: #5E6366;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.shipping-info p{
+    margin: 0px;
+}
+
+.fa-plane-departure.{
+    margin-right: 5px;
+    color: #555d50;
+}
+.fa-shield{
+    margin-right: 5px;
+    color: #555d50;
+}
 
 /* Products Style End  */
 
