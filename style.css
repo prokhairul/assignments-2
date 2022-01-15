@@ -125,6 +125,13 @@ Top Main Part Styles
     border: 0px;
     margin-top: 10px;
 }
+
+.top-button:hover{
+    background-color: orange;
+    color: white;
+    transition: ease-in 0.5s;
+}
+
 .fa-circle-right{
     margin-left: 10px;
 }
@@ -238,6 +245,10 @@ Products Style Start
     display: flex;
     justify-content: flex-end;
     margin: 30px 20px 0px 0px ;
+}
+
+.see-more a:hover{
+    color: orange;
 }
 
 .see-more a{
@@ -362,6 +373,161 @@ Responsive code For mobile devices
 ------------------------------------*/
 
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* Header Section Design Start  */
+
+    .navbar{
+        margin-top: 30px;
+        flex-direction: row;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .web-name a {
+        font-size: 40px;
+    }
+
+    .menu-item{
+        display: none
+    }
+
+    /* Top main Sesign Start  */
+
+    .top-main {
+        display: flex;
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+
+    .top-main-left {
+        width: 100%;
+        position: relative;
+        padding-top: 315px;
+    }
+    .top-main-left h1 {
+        font-size: 28px;
+        text-align: center;
+        line-height: normal;
+        padding: 0px 0px 0px 10px ;
+        letter-spacing: 3px;
+    }
+
+    .top-main-left p{
+        padding: 0% 20% 0% 20%;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .top-main-right{
+        float: none;
+        position: absolute;
+        width: 100%;
+  
+    }
+
+    .top-main-right img{
+        width: 90%;
+        margin-right: 23px;
+    }
+
+    .top-button {
+        align-items: center;
+        margin-left: 25%;
+    }
+
+
+    /* Porducts Page Design Start  */
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .item {
+        width: 87%;
+        margin: 0px 10px 30px 10px;
+    }
+
+    .blog {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .article {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .thumbnail img {
+        width: 97%;
+        height: auto;
+        border-radius: 10px;
+        margin: 5px 5px 0px 5px;
+    }
+
+    .top-brands {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .top-brands .brand-img {
+        width: 13%;
+        padding: 10px 0px 10px 0px;
+    }
+    .top-brands .brand-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .see-more {
+   
+        width: 100%;
+        margin: 30px 20px 0px 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .see-more a {
+        font-size: 25px;
+    }
+
+    .container {
+        width: auto;
+    }
+
+    /* footer Design Start  */
+    footer {
+        margin: 70px 10px 70px 10px;
+    }
+
+    footer h2{
+        font-size: 30px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+
+
+}
+
 
 
 
@@ -376,7 +542,7 @@ Responsive code For mobile devices End
 Responsive code for tablet   
 -----------------------------*/
 
-
+@media only screen and (min-width: 768px) {}
 
 
 /*-----------------------------
