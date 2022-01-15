@@ -1,10 +1,21 @@
+/*----------------
+Google Fonts
+----------------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Chivo&family=IBM+Plex+Sans&family=Oswald&family=Poppins&display=swap');
 
+
+/*-------------------------------
+Common Style for whole body
+-------------------------------*/
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
+/*-------------------------------
+Common Style for whole body End
+-------------------------------*/
 
 /*-------------------- 
 Navbar Style Start  
@@ -60,7 +71,9 @@ Style for all Section End
 -------------------------*/
 
 
-/* Top Main Part Styles */
+/*--------------------- 
+Top Main Part Styles 
+---------------------*/
 
 .top-main{
     display: flex;
@@ -92,7 +105,6 @@ Style for all Section End
     width: 50%;
     text-align: right;
     margin-top: 50px;
-
 }
 .top-button{
     width: 196px;
@@ -111,21 +123,19 @@ Style for all Section End
     margin-left: 10px;
 }
 
+/*---------------------- 
+Top Main Part Styles End
+-----------------------*/
 
-/* Top Main Styles End */
-
-
-
-
-
-/* Brand Style Start  */
+/*-------------------
+Brand Style Start  
+-------------------*/
 
 hr{
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(212, 205, 205, 0), rgba(143, 140, 140, 0.75), rgba(116, 114, 114, 0));
 }
-
 .brands{
     margin-top: 20px;
 }
@@ -145,10 +155,14 @@ hr{
 #amazon{
     margin-top: 12px;
 }
-/* Brand Style End  */
+/*-------------------
+Brand Style Start End  
+-------------------*/
 
 
-/* Products Style Start  */
+/*----------------------
+Products Style Start  
+-----------------------*/
 
 .products-main{
     margin-top: 90px;
@@ -241,12 +255,9 @@ hr{
 Products Style End  
 ------------------------*/
 
-
-
-
-
-
-/* Blog Styles Start  */
+/*-------------------
+Blog Styles Start  
+-------------------*/
 
 .blog-main{
     margin-bottom: 100px;
@@ -294,11 +305,13 @@ Products Style End
     font-style: italic;
 }
 
-/* Blog Style End  */
+/*-------------------
+Blog Styles Start End  
+-------------------*/
 
-
-
-/* Footer Design Start  */
+/*---------------------
+Footer Design Start  
+---------------------*/
 
 .foot-main{
     display: flex;
@@ -340,4 +353,34 @@ footer p{
     border-radius: 50px;
 }
 
-/* Footer Design End  */
+/*---------------------
+Footer Design Start End  
+---------------------*/
+
+
+
+/*------------------------------------ 
+Responsive code For mobile devices  
+------------------------------------*/
+
+
+
+
+
+/*------------------------------------ 
+Responsive code For mobile devices End  
+------------------------------------*/
+
+
+
+
+/*-----------------------------
+Responsive code for tablet   
+-----------------------------*/
+
+
+
+
+/*-----------------------------
+Responsive code for tablet End   
+-----------------------------*/
