@@ -529,32 +529,359 @@ Responsive code For mobile devices
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-
-
-
-
-}
-
-
-
-
-/*------------------------------------ 
-Responsive code For mobile devices End  
-------------------------------------*/
-
-
-
-
 /*-----------------------------
 Responsive code for tablet   
 -----------------------------*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
 
-@media only screen and (min-width: 768px) {}
+    /* Header Section Design Start  */
 
+    .navbar{
+        margin: 40px 0px 30px 0px;
+        flex-direction: row;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .web-name a {
+        font-size: 60px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .menu-item{
+        display: none
+    }
+
+    /* Top main Sesign Start  */
+
+    .top-main {
+        display: flex;
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+
+    .top-main-left {
+        width: 100%;
+        position: relative;
+        padding-top: 600px;
+    }
+    .top-main-left h1 {
+        font-size: 45px;
+        text-align: center;
+        line-height: 60px;
+        padding: 0px 50px 0px 50px ;
+        letter-spacing: 3px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .top-main-left p{
+        padding: 0% 20% 0% 20%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 35px;
+        padding: 0px 150px 0px 150px;
+    }
+
+    .top-main-right{
+        float: none;
+        position: absolute;
+        width: 100%;
+  
+    }
+
+    .top-main-right img{
+        width: 80%;
+        margin-right: 23px;
+    }
+
+    .top-button {
+        align-items: center;
+        margin-left: 38%;
+        margin-top: 10px;
+    }
+
+    .top-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Top Brand Design Start  */
+
+    .top-brands {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .top-brands .brand-img {
+        width: 13%;
+        padding: 10px 0px 10px 0px;
+    }
+    .top-brands .brand-img img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* Porducts Page Design Start  */
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .item {
+        /* width: 100%; */
+        margin: 0px 10px 30px 10px;
+    }
+
+    .blog {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .article {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .thumbnail img {
+        width: 97%;
+        height: auto;
+        border-radius: 10px;
+        margin: 5px 5px 0px 5px;
+    }
+
+    .shipping-info p {
+        font-size: 12px;
+    }
+
+    .see-more {
+        width: 100%;
+        margin: 30px 20px 0px 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .see-more a {
+        font-size: 25px;
+    }
+
+    .blog-main{
+        margin-bottom: 40px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    /* footer Design Start  */
+
+    footer {
+        margin: 70px 10px 70px 10px;
+    }
+
+    footer h2{
+        font-size: 30px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+
+}
 
 /*-----------------------------
 Responsive code for tablet End   
 -----------------------------*/
+
+
+/*-------------------------------------------------
+ Responsive Design For Extra Large Mobile Device  
+--------------------------------------------------*/
+
+@media only screen 
+  and (min-device-width: 601px) 
+  and (max-device-width: 767px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+ /* Header Section Design Start  */
+
+ .navbar{
+    margin: 40px 0px 30px 0px;
+    flex-direction: row;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.web-name a {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-item{
+    display: none
+}
+
+/* Top main Sesign Start  */
+
+.top-main {
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.top-main-left {
+    width: 100%;
+    position: relative;
+    padding-top: 490px;
+}
+.top-main-left h1 {
+    font-size: 45px;
+    text-align: center;
+    line-height: 60px;
+    padding: 0px 50px 0px 50px ;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top-main-left p{
+    padding: 0% 20% 0% 20%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+    padding: 0px 150px 0px 150px;
+}
+
+.top-main-right{
+    float: none;
+    position: absolute;
+    width: 100%;
+
+}
+
+.top-main-right img{
+    width: 80%;
+    margin-right: 23px;
+}
+
+.top-button {
+    align-items: center;
+    margin-left: 38%;
+    margin-top: 10px;
+}
+
+.top-img{
+    display: flex;
+    justify-content: center;
+}
+
+/* Top Brand Design Start  */
+
+.top-brands {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.top-brands .brand-img {
+    width: 13%;
+    padding: 10px 0px 10px 0px;
+}
+.top-brands .brand-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Porducts Page Design Start  */
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.item {
+    width: 78%;
+    margin: 0px 10px 30px 10px;
+}
+
+.item img{
+    width: 100%;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.thumbnail img {
+    width: 97%;
+    height: auto;
+    border-radius: 10px;
+    margin: 5px 5px 0px 5px;
+}
+
+.shipping-info p {
+    font-size: 12px;
+}
+
+.see-more {
+    width: 100%;
+    margin: 30px 20px 0px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.see-more a {
+    font-size: 25px;
+}
+
+.blog-main{
+    margin-bottom: 40px;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* footer Design Start  */
+
+footer {
+    margin: 70px 10px 70px 10px;
+}
+
+footer h2{
+    font-size: 30px;
+}
+footer p{
+    font-size: 14px;
+}
+
+  }
+
+  /*-------------------------------------------------
+ Responsive Design For Extra Large Mobile Device End  
+--------------------------------------------------*/
