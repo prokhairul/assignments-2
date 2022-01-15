@@ -306,6 +306,10 @@ Blog Styles Start
     margin-left: 15px;
 }
 
+.shipping-info p {
+    font-size: 14px;
+}
+
 .article-info a{
     text-decoration: none;
     color: #4166f5;
@@ -439,6 +443,24 @@ Responsive code For mobile devices
     .top-button {
         align-items: center;
         margin-left: 25%;
+        margin-top: 10px;
+    }
+
+    /* Top Brand Design Start  */
+
+    .top-brands {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .top-brands .brand-img {
+        width: 13%;
+        padding: 10px 0px 10px 0px;
+    }
+    .top-brands .brand-img img {
+        width: 100%;
+        height: auto;
     }
 
 
@@ -474,23 +496,11 @@ Responsive code For mobile devices
         margin: 5px 5px 0px 5px;
     }
 
-    .top-brands {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .top-brands .brand-img {
-        width: 13%;
-        padding: 10px 0px 10px 0px;
-    }
-    .top-brands .brand-img img {
-        width: 100%;
-        height: auto;
+    .shipping-info p {
+        font-size: 12px;
     }
 
     .see-more {
-   
         width: 100%;
         margin: 30px 20px 0px 0px;
         flex-direction: column;
