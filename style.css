@@ -6,7 +6,9 @@ body{
     padding: 0;
 }
 
-/* Navbar Style Start  */
+/*-------------------- 
+Navbar Style Start  
+--------------------*/
 
 .navbar {
     display: flex;
@@ -35,8 +37,13 @@ nav{
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-/* Navbar Style End  */
+/*-------------------- 
+Navbar Style Start End  
+---------------------*/
 
+/*------------------------- 
+Style for all Section 
+-------------------------*/
 
 main {
     display: flex;
@@ -46,9 +53,11 @@ main {
 
 .container{
     width: 1200px;
-    /* background-color: lightgray; */
-
 }
+
+/*------------------------- 
+Style for all Section End 
+-------------------------*/
 
 
 /* Top Main Part Styles */
@@ -276,6 +285,7 @@ Products Style End
 .article-info{
     margin-left: 15px;
 }
+
 .article-info a{
     text-decoration: none;
     color: #4166f5;
@@ -292,13 +302,42 @@ Products Style End
 
 .foot-main{
     display: flex;
-    background-color: #080808;
+    background-color: #021630;
     justify-content: center;
 }
 
 footer{
     color: white;
     text-align: center;
+    margin: 70px 0px 70px 0px;
+}
+
+footer h2{
+    font-size: 34px;
+    font-family:'Chivo', sans-serif;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+footer p{
+    margin: 10px;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.footer-icon{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.fa-brands{
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: #d3d3d325;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 /* Footer Design End  */
